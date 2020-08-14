@@ -1,9 +1,9 @@
 {
   "name": "passworder",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "author": "rmlzy <rmlzy@outlook.com>",
   "description": "A Simple Password Manager",
-  "license": null,
+  "license": "MIT",
   "main": "./dist/electron/main.js",
   "scripts": {
     "build": "node .electron-vue/build.js && electron-builder",
@@ -16,8 +16,7 @@
     "pack:main": "cross-env NODE_ENV=production webpack --progress --colors --config .electron-vue/webpack.main.config.js",
     "pack:renderer": "cross-env NODE_ENV=production webpack --progress --colors --config .electron-vue/webpack.renderer.config.js",
     "test": "npm run unit && npm run e2e",
-    "unit": "karma start test/unit/karma.conf.js",
-    "postinstall": ""
+    "unit": "karma start test/unit/karma.conf.js"
   },
   "build": {
     "productName": "passworder",
@@ -55,7 +54,10 @@
   },
   "dependencies": {
     "axios": "^0.18.0",
+    "crypto-js": "^4.0.0",
+    "fs-extra": "8.1.0",
     "prettier": "^2.0.5",
+    "uuid": "^8.3.0",
     "vue": "^2.5.16",
     "vue-electron": "^1.0.6",
     "vue-router": "^3.0.1",

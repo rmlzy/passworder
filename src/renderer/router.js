@@ -7,8 +7,18 @@ export default new Router({
   routes: [
     {
       path: "/",
-      name: "home-index",
-      component: require("@/pages/home/index").default,
+      name: "welcome",
+      component: require("@/pages/welcome").default,
+    },
+    {
+      path: "/lock",
+      name: "lock",
+      component: require("@/pages/lock").default,
+    },
+    {
+      path: "/manager",
+      name: "manager",
+      component: require("@/pages/manager").default,
     },
     {
       path: "*",

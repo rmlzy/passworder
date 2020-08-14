@@ -1,1 +1,243 @@
 @import "paper.min.css";
+
+.modal-visible {
+  visibility: visible;
+  opacity: 1;
+
+  .modal-bg {
+    visibility: visible;
+  }
+
+  .modal-body {
+    top: 50%;
+  }
+}
+
+.theme-light {
+  background: url("../assets/light.png");
+
+  .card,
+  input {
+    background: rgba(255, 255, 255, 0.8);
+  }
+}
+
+.theme-wood {
+  color: #fff;
+  background: url("../assets/wood.jpg");
+
+  button {
+    color: #fff;
+    border-color: rgba(255, 255, 255, 0.8);
+  }
+
+  input,
+  select,
+  textarea {
+    color: #41403e;
+    border-color: rgba(255, 255, 255, 0.8);
+    background: rgba(255, 255, 255, 0.8);
+  }
+
+  .card {
+    color: #41403e;
+    background: rgba(255, 255, 255, 0.8);
+  }
+
+  .modal-body {
+    color: #41403e;
+    background: rgba(255, 255, 255, 0.9);
+
+    button {
+      color: #41403e;
+      border-color: #41403e;
+    }
+  }
+}
+
+.theme-chinese {
+  color: #fff;
+  background: url("../assets/chinese.jpg");
+
+  button {
+    color: #fff;
+    border-color: rgba(255, 255, 255, 0.8);
+  }
+
+  input,
+  select,
+  textarea {
+    color: #41403e;
+    border-color: rgba(255, 255, 255, 0.8);
+    background: rgba(255, 255, 255, 0.8);
+  }
+
+  .card {
+    color: #41403e;
+    background: rgba(255, 255, 255, 0.8);
+  }
+
+  .modal-body {
+    color: #41403e;
+    background: rgba(255, 255, 255, 0.9);
+
+    button {
+      color: #41403e;
+      border-color: #41403e;
+    }
+  }
+}
+
+.theme-kiwifruit {
+  color: #41403e;
+  background: url("../assets/kiwifruit.jpg");
+
+  &:before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.9);
+  }
+
+  .card {
+    color: #41403e;
+    background: rgba(255, 255, 255, 0.8);
+  }
+
+  .modal-body {
+    color: #41403e;
+    background: rgba(255, 255, 255, 0.9);
+  }
+}
+
+.theme-micai {
+  color: #fff;
+  background: url("../assets/micai.jpg");
+
+  &:before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.4);
+  }
+
+  button {
+    color: #fff;
+    border-color: rgba(255, 255, 255, 0.8);
+  }
+
+  input,
+  select,
+  textarea {
+    color: #41403e;
+    border-color: rgba(255, 255, 255, 0.8);
+    background: rgba(255, 255, 255, 0.8);
+  }
+
+  .card {
+    color: #41403e;
+    background: rgba(255, 255, 255, 0.8);
+  }
+
+  .modal-body {
+    color: #41403e;
+    background: rgba(255, 255, 255, 0.9);
+
+    button {
+      color: #41403e;
+      border-color: #41403e;
+    }
+  }
+}
+
+.theme-taiqiu {
+  color: #fff;
+  background: url("../assets/taiqiu.png");
+
+  &:before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.4);
+  }
+
+  button {
+    color: #fff;
+    border-color: rgba(255, 255, 255, 0.8);
+  }
+
+  input,
+  select,
+  textarea {
+    color: #41403e;
+    border-color: rgba(255, 255, 255, 0.8);
+    background: rgba(255, 255, 255, 0.8);
+  }
+
+  .card {
+    color: #41403e;
+    background: rgba(255, 255, 255, 0.8);
+  }
+
+  .modal-body {
+    color: #41403e;
+    background: rgba(255, 255, 255, 0.9);
+
+    button {
+      color: #41403e;
+      border-color: #41403e;
+    }
+  }
+}
+
+.theme-zhulian {
+  color: #fff;
+  background: url("../assets/zhulian.jpg");
+
+  &:before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.4);
+  }
+
+  button {
+    color: #fff;
+    border-color: rgba(255, 255, 255, 0.8);
+  }
+
+  input,
+  select,
+  textarea {
+    color: #41403e;
+    border-color: rgba(255, 255, 255, 0.8);
+    background: rgba(255, 255, 255, 0.8);
+  }
+
+  .card {
+    color: #41403e;
+    background: rgba(255, 255, 255, 0.8);
+  }
+
+  .modal-body {
+    color: #41403e;
+    background: rgba(255, 255, 255, 0.9);
+
+    button {
+      color: #41403e;
+      border-color: #41403e;
+    }
+  }
+}

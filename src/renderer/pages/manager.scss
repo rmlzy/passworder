@@ -1,0 +1,111 @@
+.manager {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 52px 80px 10px;
+  overflow-x: hidden;
+  overflow-y: auto;
+
+  &__hd {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px 80px;
+    z-index: 10;
+
+    input {
+      width: 100%;
+      height: 32px;
+    }
+  }
+}
+
+.card {
+  margin-bottom: 1em;
+
+  &-title {
+    font-weight: 500 !important;
+    font-size: 22px !important;
+    margin-bottom: 15px !important;
+
+    .badge {
+      cursor: pointer;
+      float: right;
+    }
+  }
+
+  &-body {
+    padding: 10px !important;
+  }
+}
+
+.create-btn {
+  position: fixed;
+  left: 20px;
+  bottom: 20px;
+  width: 40px;
+  height: 40px;
+  font-size: 30px;
+  padding: 0;
+}
+
+.lock-btn {
+  position: fixed;
+  top: 10px;
+  right: 30px;
+  width: 32px;
+  height: 32px;
+  font-size: 20px;
+  line-height: 32px;
+  padding: 0;
+  z-index: 11;
+}
+
+.skin-btn {
+  position: fixed;
+  top: 60px;
+  right: 30px;
+  width: 32px;
+  height: 32px;
+  font-size: 20px;
+  line-height: 32px;
+  padding: 0;
+  z-index: 11;
+}
+
+.mb0 {
+  margin-bottom: 0 !important;
+}
+
+.skin {
+  cursor: pointer;
+
+  &.active {
+    img {
+      border-color: #0071de;
+    }
+  }
+
+  &__name {
+  }
+
+  &__demo {
+    width: 100%;
+    height: 70px;
+    overflow: hidden;
+
+    img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+}
+
+.empty {
+  text-align: center;
+  padding: 80px 0;
+}
