@@ -2,6 +2,8 @@
 
 > A Simple Password Manager
 
+相关文章: [花了半天时间, 实现了一个简易的密码管理器](http://poppython.com/blog/passworder-released.html)
+
 ## 预览
 
 <img width="500" src="./docs/preview1.jpg" />
