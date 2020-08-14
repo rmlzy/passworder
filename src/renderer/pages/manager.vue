@@ -78,7 +78,7 @@
 
         <div class="text-right">
           <button class="btn-small" @click="closeSkinDialog">取消</button>
-          <button class="btn-small" @click="onSkinDialogOk">创建</button>
+          <button class="btn-small" @click="onSkinDialogOk">使用</button>
         </div>
       </div>
     </div>
